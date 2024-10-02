@@ -73,3 +73,5 @@ The nation has two fields:
 
 * *nation*.id - the string `"US"`
 * *nation*.properties.name - the string `"United States"`
+
+.
