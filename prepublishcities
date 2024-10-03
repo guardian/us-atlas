@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# rm -rvf *-10m.json
+# mkdir -p build
+
+cat ./extra/cities.geojson \
+  | tee cities.geojson \
+  | geoproject 'd3.geoAlbersUsa().scale(1300).translate([487.5, 305])' \
+  > cities-albers-10m.json 2> errors.log
+
