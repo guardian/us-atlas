@@ -31,5 +31,13 @@
     "topojson-client": "^3.0.0",
     "topojson-server": "^3.0.1",
     "topojson-simplify": "^3.0.0"
-  }
+  },
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.11"
+  },
+    "resolutions": {
+      "node-pre-gyp": "@mapbox/node-pre-gyp"
+    }
+  
+  
 }
